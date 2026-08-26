@@ -1,7 +1,17 @@
 aid: pharmazz
 name: Pharmazz
-description: 'Pharmazz is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: >-
+  Pharmazz, Inc. is a privately held, clinical-stage biopharmaceutical company headquartered in
+  Willowbrook, Illinois, founded and led by pharmacologist Dr. Anil Gulati. The company discovers,
+  develops and commercializes first-in-class therapeutics for critical care and neurovascular
+  medicine, built around two lead small-molecule candidates: centhaquine (Lyfaquin), a resuscitative
+  agent for hypovolemic shock that holds marketing authorization from the Drugs Controller General
+  of India and is licensed to Dr. Reddy's Laboratories for the Indian market, and sovateltide
+  (Tycamzzi), an endothelin-B receptor agonist for cerebral ischemic stroke. Additional pipeline
+  programs target septic shock, acute kidney injury, cardiac arrest, acute spinal cord injury,
+  hypoxic-ischemic encephalopathy and Alzheimer's disease. Pharmazz is a drug-development company,
+  not a software vendor; its public web presence is a corporate and investor brochure site and it
+  operates no developer program, public API, SDK or machine-readable interface.
 url: https://raw.githubusercontent.com/api-evangelist/pharmazz/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
@@ -12,6 +22,13 @@ created: '2026-08-26'
 modified: '2026-08-26'
 tags:
 - Company
+- Pharmaceuticals
+- Biotechnology
+- Life Sciences
+- Healthcare
+- Clinical Trials
+- Critical Care
+- Drug Development
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +36,49 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/pharmazz-domain-security.yml
 - type: Website
-  url: https://forgeglobal.com/pharmazz_stock/
+  url: https://www.pharmazz.com/
+- type: About
+  url: https://www.pharmazz.com/about-us.php
+- type: Contact
+  url: https://www.pharmazz.com/contact-us.php
+- type: Careers
+  url: https://www.pharmazz.com/career.php
+- type: Press
+  url: https://www.pharmazz.com/press-releases.php
+- type: Investors
+  url: https://www.pharmazz.com/investors.php
+- type: Publications
+  url: https://www.pharmazz.com/publications.php
+- type: LinkedIn
+  url: https://www.linkedin.com/company/pharmazz
+- type: Sitemap
+  url: https://www.pharmazz.com/sitemap.xml
+- type: LLMsTxt
+  url: llms/pharmazz-llms.txt
+
+x-enrichment:
+  date: '2026-08-26'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
+x-coverage:
+  state: none
+  reason: not-a-software-company
+  detail: >-
+    Pharmazz is a clinical-stage drug developer whose entire public presence is a 33-page
+    static PHP brochure site listing its centhaquine and sovateltide trial programs; there is
+    no /developers, /docs or /api path, no GitHub organization, and every contract-discovery
+    probe against www.pharmazz.com returned the site's standard 404 page.
+  evidence:
+  - url: https://www.pharmazz.com/developers
+    status: 404
+  - url: https://www.pharmazz.com/openapi.json
+    status: 404
+  - url: https://www.pharmazz.com/.well-known/agent-card.json
+    status: 404
+  - url: https://www.pharmazz.com/sitemap.xml
+    status: 200
+  checked: '2026-08-26'

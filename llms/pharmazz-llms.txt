@@ -1,0 +1,64 @@
+# Pharmazz, Inc.
+
+> Clinical-stage biopharmaceutical company in Willowbrook, Illinois, developing first-in-class
+> therapeutics for critical care and neurovascular medicine. Pharmazz publishes no public API,
+> SDK, developer portal or machine-readable specification of any kind.
+
+Pharmazz, Inc. is a privately held Delaware corporation founded and led by pharmacologist
+Dr. Anil Gulati. Its two lead small-molecule candidates are centhaquine (Lyfaquin), a
+resuscitative agent for hypovolemic shock that holds marketing authorization from the Drugs
+Controller General of India and is licensed to Dr. Reddy's Laboratories for the Indian market,
+and sovateltide, an endothelin-B receptor agonist for cerebral ischemic stroke. Additional
+pipeline programs target septic shock, acute kidney injury, cardiac arrest, acute spinal cord
+injury, hypoxic-ischemic encephalopathy and Alzheimer's disease.
+
+## API surface
+
+Pharmazz is a drug-development company, not a software vendor. As of 2026-08-26 there is no
+developer program, no public API, no OpenAPI/AsyncAPI/GraphQL contract, no MCP server, no A2A
+agent card and no /.well-known/ document served on www.pharmazz.com. Every contract-discovery
+probe returned HTTP 404. Do not attempt to call an API at this domain; none exists.
+
+## Company
+
+- [Home](https://www.pharmazz.com/): Corporate site.
+- [About Us](https://www.pharmazz.com/about-us.php): Company overview and mission.
+- [History](https://www.pharmazz.com/history.php): Company history.
+- [Directors & Advisors](https://www.pharmazz.com/directors-advisors.php): Board and advisory board.
+- [Management](https://www.pharmazz.com/management.php): Executive team.
+- [Corporate Governance](https://www.pharmazz.com/corporate-governance.php): Governance policies.
+- [Careers](https://www.pharmazz.com/career.php): Open positions.
+- [Contact](https://www.pharmazz.com/contact-us.php): Corporate contact form.
+
+## Product pipeline
+
+- [Pipeline Overview](https://www.pharmazz.com/product-pipeline.php): All programs and phases.
+- [Hypovolemic Shock](https://www.pharmazz.com/hypovolemic-shock.php): Centhaquine (Lyfaquin) lead indication.
+- [Cerebral Ischemic Stroke](https://www.pharmazz.com/cerebral-ischemic-stroke.php): Sovateltide lead indication.
+- [Septic Shock](https://www.pharmazz.com/septic-shock.php)
+- [Acute Kidney Injury](https://www.pharmazz.com/acute-kidney-injury.php)
+- [Cardiac Arrest](https://www.pharmazz.com/cardiac-arrest.php)
+- [Acute Spinal Cord Injury](https://www.pharmazz.com/acute-spinal-cord-injury.php)
+- [Hypoxic-Ischemic Encephalopathy](https://www.pharmazz.com/hypoxic-ischemic-encephalopathy.php)
+- [Alzheimer's Disease](https://www.pharmazz.com/alzheimers-disease.php)
+- [COVID-19 with ARDS](https://www.pharmazz.com/covid-19-with-ards.php)
+- [Upcoming Products](https://www.pharmazz.com/upcoming-products.php)
+
+## Investors and media
+
+- [Investor Overview](https://www.pharmazz.com/overview.php)
+- [Investors](https://www.pharmazz.com/investors.php)
+- [Press Releases](https://www.pharmazz.com/press-releases.php)
+- [Media Coverage](https://www.pharmazz.com/media-coverage.php)
+- [Publications](https://www.pharmazz.com/publications.php): Peer-reviewed clinical literature.
+- [Corporate Brochure (PDF)](https://www.pharmazz.com/assets/Pharmazz_Corporate_Brochure_01-2026.pdf)
+
+## Optional
+
+- [LinkedIn](https://www.linkedin.com/company/pharmazz)
+- [Sitemap](https://www.pharmazz.com/sitemap.xml)
+
+---
+generated: 2026-08-26
+method: generated
+source: apis.yml + https://www.pharmazz.com/sitemap.xml (HTTP 200, fetched 2026-08-26)
